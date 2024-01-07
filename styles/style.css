@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Merriweather:wght@300;400;700;900&display=swap");
+
+/* html reset  */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "Merriweather", serif;
+  font-family: "Inter", sans-serif;
+}
+
+/* common styles  */
+
+.container {
+  width: 82%;
+  max-width: 1320px;
+  margin: 0 auto;
+}
+
+.red {
+  color: #f00;
+}
+
+.dark {
+  color: #070211;
+}
+
+.section-title-big {
+  font-family: "Merriweather", serif;
+  font-size: 72px;
+  font-weight: 900;
+}
+
+.section-title-normal {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.section-title-small {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.primary-btn {
+  color: white;
+  font-size: 20px;
+  padding: 16px 32px;
+  font-weight: 700;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* banner styles start  */
+
+#banner {
+  color: white;
+  text-align: center;
+  margin-top: 50px;
+  border-radius: 16px;
+  /* background-image: url('../images/banner-bg.png'); */
+  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url(../images/banner-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 177px 344px;
+}
+
+#banner h3 {
+  font-family: "Merriweather", serif;
+  font-size: 32px;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+
+#banner .section-title-big {
+  line-height: 95px;
+}
+
+/* main  */
+
+main section {
+  padding-bottom: 120px;
+}
+
+/* holiday-off section style start  */
+
+#holiday-off {
+  text-align: center;
+  padding-top: 120px;
+}
+
+.holiday-off-heading h1 {
+  font-size: 88px;
+  font-weight: 700;
+  margin-bottom: 48px;
+}
+
+.holiday-off-heading h2 {
+  font-weight: 700;
+  margin: 16px 0 48px;
+}
+
+.holiday-off-img img {
+  max-width: 750px;
+}
+
+/* midnight party section styles start  */
+
+#midnight-party {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+  background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url(../images/midnight-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 16px;
+  padding: 70px 130px;
+}
+
+.midnight-party-content h1 {
+  color: #fff;
+  font-family: "Merriweather", serif;
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 88px;
+  letter-spacing: 7.04px;
+}
+
+.midnight-party-content p {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 18px;
+  line-height: 30px;
+  margin: 24px 0 48px;
+}
+
+.midnight-party-content button {
+  background-color: transparent;
+  border: 1px solid white;
+  transition: all 0.5s;
+}
+
+.midnight-party-content button:hover {
+  color: black;
+  background-color: white;
+  border: 1px solid white;
+}
