@@ -260,3 +260,40 @@ section > div {
 #holidays-sale .image-contents .img3 img {
   width: 100%;
 }
+
+/* gift section styles start  */
+
+#gifts .gifts-content {
+  width: 900px;
+  margin-bottom: 48px;
+}
+
+#gifts .gifts-content h2 {
+  font-weight: 600;
+}
+
+#gifts .gifts-content h1 {
+  margin: 16px 0 22px;
+}
+
+#gifts .gifts-image .image-main {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+
+#gifts .gifts-image .image-main .image-item {
+  border-radius: 16px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+#gifts .gifts-image .image-main .image-item img {
+  width: 100%;
+  transition: all 0.3s;
+}
+
+#gifts .gifts-image .image-main .image-item img:hover {
+  scale: 1.1;
+}
