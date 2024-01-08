@@ -184,7 +184,7 @@ section > div {
 }
 
 #join-party button:hover {
-  background-color: #7bdff2;
+  background-color: rgb(197, 0, 0);
 }
 
 /* coming soon section styles start  */
@@ -296,4 +296,53 @@ section > div {
 
 #gifts .gifts-image .image-main .image-item img:hover {
   scale: 1.1;
+}
+
+/* newsletter section styles start  */
+
+#newsletter {
+  text-align: center;
+  background-color: rgba(255, 0, 0, 0.05);
+  padding: 80px 0;
+}
+
+#newsletter .newsletter-content {
+  width: 900px;
+  margin: 0 auto;
+}
+
+#newsletter .newsletter-content h1 {
+  margin: 40px 0 22px;
+}
+
+#newsletter form {
+  display: flex;
+  justify-content: center;
+  margin-top: 48px;
+}
+
+#newsletter form input[type="email"] {
+  width: 361px;
+  color: rgba(7, 2, 17, 0.475);
+  font-size: 18px;
+  border: none;
+  padding-left: 40px;
+  outline: none;
+  border-radius: 50px 0 0 50px;
+}
+
+#newsletter form input[type="submit"] {
+  color: #fff;
+  background-color: #f00;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 24px 56px;
+  border: none;
+  border-radius: 0px 50px 50px 0px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+#newsletter form input[type="submit"]:hover {
+  background-color: rgb(197, 0, 0);
 }
