@@ -394,4 +394,9 @@ footer .copyright {
 footer .copyright a {
   color: white;
   text-decoration: none;
+  transition: all 0.3s;
+}
+
+footer .copyright a:hover {
+  color: rgb(216, 216, 216);
 }
